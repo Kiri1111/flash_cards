@@ -1,3 +1,10 @@
+import { Button } from '@/ui/button'
+
 export function App() {
-  return <div>Hello</div>
+  return (
+    <div>
+      <Button as={'a'} />
+      <Button as={'button'}>{'ddd'}</Button>
+    </div>
+  )
 }
