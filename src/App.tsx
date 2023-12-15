@@ -1,10 +1,12 @@
 import { Button } from '@/ui/button'
+import { Header } from '@/ui/header'
 
 export function App() {
   return (
     <div>
-      <Button as={'a'} />
+      <Header />
       <Button as={'button'}>{'ddd'}</Button>
+      <Button as={'a'}>{'dddssdd'}</Button>
     </div>
   )
 }
